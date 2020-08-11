@@ -10,6 +10,7 @@ public with sharing class BearController {
     public static Bear__c[] searchBears(String searchTerm) {
         // Return all bears when no search term
         searchTerm = searchTerm.trim();
+        //test  
         if (searchTerm == '') {
             return getAllBears();  
         }
