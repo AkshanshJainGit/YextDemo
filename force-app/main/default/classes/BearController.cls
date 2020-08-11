@@ -11,7 +11,7 @@ public with sharing class BearController {
         // Return all bears when no search term
         searchTerm = searchTerm.trim();
         if (searchTerm == '') {
-            return getAllBears();
+            return getAllBears();  
         }
         // Prepare query paramters
         searchTerm = '%'+ searchTerm +'%';
